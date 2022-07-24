@@ -1,0 +1,51 @@
+.message {
+    display: flex;
+}
+
+.name {
+    padding: 5px 8px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.span {
+    width: 225px;
+    background-color: green;
+    border-radius: 5px;
+    position: relative;
+}
+
+.span:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-left: 9px solid green;
+transform: rotate(-150deg);
+    border-radius: 100%;
+    bottom: 1px;
+    left: -18px;
+
+}
+
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px;
+    color: grey;
+}
+
+
+.mes {
+    color: white;
+}
+
+.time p {
+    margin: 0;
+}
+
+.tm {
+    padding-top: 7px;
+    padding-bottom: 3px;
+}

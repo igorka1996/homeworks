@@ -1,0 +1,20 @@
+.superInput {
+border: 5px solid greenyellow;
+background-color: white;
+    border-radius: 10px;
+}
+
+.superInput:focus{
+    border: 10px solid fuchsia;
+}
+
+
+
+.errorInput {
+    border: 3px solid lime;
+    background: red;
+}
+
+.error {
+    color: red;
+}
