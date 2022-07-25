@@ -1,0 +1,28 @@
+.route {
+    margin: 10px;
+    display: flex;
+    transform: translateX(-375px);
+    transition: .5s ease;
+
+}
+
+.route:hover {
+    transform: translateX(0px);
+    transition: .5s ease;
+}
+
+.activity {
+    color: deeppink !important;
+}
+
+.divka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    width: 80px;
+    height: 40px;
+    background: blue;
+    font-weight: bold;
+    cursor: pointer;
+}
