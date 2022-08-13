@@ -1,0 +1,17 @@
+
+.active{
+    background: firebrick;
+    font-weight: bold;
+}
+
+label{
+    cursor: pointer;
+}
+
+input{
+    cursor: pointer;
+}
+
+.inp{
+    width: 30px;
+}
